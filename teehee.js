@@ -45,8 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			text.innerHTML = gap2 * i;
 		}
 		let perpixely = top / (document.querySelectorAll(".ylabel:last-child")[0].getBoundingClientRect().left - leftstart);
-		let littleguy = document.createElement("div");
-		yaxis.appendChild(littleguy);
 		arr.forEach((e, i) => {
 			let point = document.createElement("div");
 			document.getElementById("right").appendChild(point);
